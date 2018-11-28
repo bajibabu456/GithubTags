@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def hello_world(req):
     return HttpResponse("Hello World!")
+
+def dummy(req):
+    return HttpResponse("This is dummy!")
