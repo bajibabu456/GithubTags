@@ -7,3 +7,6 @@ def hello_world(req):
 
 def sample(req):
     return HttpResponse(":)")
+
+def test(req):
+    return HttpResponse("It worked!")
