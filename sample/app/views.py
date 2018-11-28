@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def hello_world(req):
     return HttpResponse("Hello World!")
+
+def update_name(req):
+    return HttpResponse('Name is updated successfully')
