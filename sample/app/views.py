@@ -10,3 +10,6 @@ def sample(req):
 
 def test(req):
     return HttpResponse("It worked!")
+
+def create_collection(req):
+    return HttpResponse("Collection is created!")
