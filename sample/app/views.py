@@ -10,3 +10,6 @@ def sample(req):
 
 def test(req):
     return HttpResponse("It worked!")
+
+def dummy(req):
+    return HttpResponse("This is a dummy view")
