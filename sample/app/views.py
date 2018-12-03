@@ -15,4 +15,4 @@ def dummy(req):
     return HttpResponse("This is a dummy view")
 
 def new_view(req):
-    return HttpResponse("This is a dummy view")
+    return HttpResponse("new one for testing")
