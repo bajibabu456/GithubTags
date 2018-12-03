@@ -17,5 +17,5 @@ def dummy(req):
 def new_view(req):
     return HttpResponse("new one for testing")
 
-def my_view(req, a, b):
+def my_view(req, a=0, b=0):
     return a * b
