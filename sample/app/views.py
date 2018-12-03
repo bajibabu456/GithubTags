@@ -13,3 +13,6 @@ def test(req):
 
 def dummy(req):
     return HttpResponse("This is a dummy view")
+
+def new_view(req):
+    return
