@@ -20,5 +20,8 @@ def new_view(req):
 def my_view(req, a=0, b=0):
     return a * b
 
-def sub(req, a=0, b-0):
+def sub(req, a=0, b=0):
     return a - b
+
+def temp_view(req)
+    return HttpResponse("temporary")
