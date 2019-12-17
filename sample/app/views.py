@@ -25,3 +25,6 @@ def sub(req, a=0, b=0):
 
 def temp_view(req)
     return HttpResponse("temporary")
+
+def home(req):
+    return HttpResponse("Welcome")
